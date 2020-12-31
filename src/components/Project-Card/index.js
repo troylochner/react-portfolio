@@ -1,7 +1,7 @@
 import React from "react";
 //import 'materialize-css';
 
-const projectCard = () =>{
+const projectCard = (props) =>{
 
     return(
  
@@ -10,7 +10,7 @@ const projectCard = () =>{
 
         <div className="card-image">
           <img alt="holding pattern" src="https://via.placeholder.com/100x100"></img>
-          <span className="card-title">Project Title</span>
+          <span className="card-title">{props.name}</span>
         </div>
 
         <div className="card-content">
