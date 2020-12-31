@@ -6,20 +6,19 @@ const projectCard = () =>{
     return(
  
 
-        <div className="card">
+        <div className="card z-depth-3">
 
         <div className="card-image">
           <img alt="holding pattern" src="https://via.placeholder.com/100x100"></img>
-          <span className="card-title">Card Title</span>
+          <span className="card-title">Project Title</span>
         </div>
 
         <div className="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+          <p>This is some placeholder - you will be replaced by some contextual data.</p>
         </div>
 
         <div className="card-action">
-          <a href="https://www.wwe.com/">My Employer</a>
+          <a target="_blank" href="https://www.wwe.com/">Demo</a>
         </div>
 
       </div>
