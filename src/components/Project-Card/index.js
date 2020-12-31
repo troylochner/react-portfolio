@@ -4,8 +4,7 @@ import React from "react";
 const projectCard = () =>{
 
     return(
-        <div className="row">
-        <div className="col s12 m7">
+ 
 
         <div className="card">
 
@@ -24,8 +23,7 @@ const projectCard = () =>{
         </div>
 
       </div>
-      </div>
-      </div>
+
         
     )
 

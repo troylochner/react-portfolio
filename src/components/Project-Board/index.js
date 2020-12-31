@@ -10,11 +10,23 @@ const projectBoard = () =>{
 
     return(
 
-        <ProjectCard/>
-    
+        <div className="container">
 
-    )
+        <div className="row">
+            <div className="col s3"><ProjectCard/></div>
+            <div className="col s3"><ProjectCard/></div>
+            <div className="col s3"><ProjectCard/></div>
+            <div className="col s3"><ProjectCard/></div>
+            <div className="col s3"><ProjectCard/></div>
+            <div className="col s3"><ProjectCard/></div>
+            <div className="col s3"><ProjectCard/></div>
+            <div className="col s3"><ProjectCard/></div>
+        </div>
+        
+      </div>
 
+
+)
 };
 
 export default projectBoard;
