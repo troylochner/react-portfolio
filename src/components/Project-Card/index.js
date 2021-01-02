@@ -1,31 +1,28 @@
 import React from "react";
-//import 'materialize-css';
+import {Link} from "react-router-dom";
 
-const projectCard = (props) =>{
+const ProjectCard = ({id,name,description,GitHubRepo}) =>{
 
     return(
- 
+    <div className="card z-depth-3">
 
-        <div className="card z-depth-3">
-
-        <div className="card-image">
-          <img alt="holding pattern" src="https://via.placeholder.com/100x100"></img>
-          <span className="card-title">{props.name}</span>
-        </div>
-
-        <div className="card-content">
-          <p>This is some placeholder - you will be replaced by some contextual data.</p>
-        </div>
-
-        <div className="card-action">
-          <a target="_blank" href="https://www.wwe.com/">Demo</a>
-        </div>
-
+      <div className="card-image">
+        <img alt="holding pattern" src="https://via.placeholder.com/100x100"></img>
+        <span className="card-title">{name}</span>
       </div>
 
+      <div className="card-content">
+        <p>{description}</p>
+      </div>
+
+      <div className="card-action">
+        <a target="_blank" href={`/project/${id}`}>View on GitHub</a>
+      </div>
+
+  </div>
         
     )
 
 };
 
-export default projectCard;
+export default ProjectCard;

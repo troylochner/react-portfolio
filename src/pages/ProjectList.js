@@ -7,26 +7,21 @@ import Bio from "./pages/Bio";
 import Contact from "./pages/Contact";
 import Detail from "./pages/Detail";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {Link} from "react-router-dom";
 
 import './App.css';
 
 
-function App() {
+function ProjectListPage() {
   return (
-    <div className="Portfolio">
-       <Router>
-        
+    <div className="Portfolio">  
       <ProjectProvider>
       <Header/>
-      <Route exact path="/" component={ProjectList}></Route>
-      <Route path="/bio" component={Bio}></Route>
-      <Route path="/contact" component={Contact}></Route>
+      <ProjectList/>
       <Footer/>
-
       </ProjectProvider>
-      </Router>
     </div>
   );
 }
 
-export default App;
+export default ProjectListPage;
