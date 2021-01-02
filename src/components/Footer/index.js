@@ -3,8 +3,7 @@ import React from "react";
 function Footer() {
   return (
 
-
-    <footer className="page-footer">
+    <footer className="page-footer z-depth-3">
     <div className="container">
       <div className="row">
         <div className="col l6 s12">

@@ -9,9 +9,9 @@ export const ProjectProvider = (props)=>{
         
         {
             id: 1
-            ,name: "Covid-19 Dashboard"
+            ,name: "Cov19 Info"
             ,status: "Closed"
-            ,description_short: "Covid-19 high level stats dashboard."
+            ,description_short: "Covid-19 high level statistics dashboard."
             ,imageURL: "https://raw.githubusercontent.com/troylochner/react-portfolio/main/src/img/covid.png"
             ,era: "October 2020"
             ,GitHubRepo:"https://github.com/troylochner/covid19-info"
@@ -30,7 +30,7 @@ export const ProjectProvider = (props)=>{
             name: "BurgerTown",
             status: "Open",
             description_short: "Student project to track burgers consumed.",
-            imageURL: "https://raw.githubusercontent.com/troylochner/react-portfolio/main/src/img/burgertown.png",
+            imageURL: "https://raw.githubusercontent.com/troylochner/react-portfolio/main/src/img/burgertown-rev.png",
             dateComplete:""
             ,GitHubRepo:"https://github.com/troylochner/burgertown"
             ,deployURL:""
@@ -67,7 +67,7 @@ export const ProjectProvider = (props)=>{
             id: 7,
             name: "WWE Work",
             status: "Open",
-            description_short: "Content systems engineering work.",
+            description_short: "The work I do for WWE.",
             imageURL: "https://via.placeholder.com/600x600.png",
             dateComplete:""
             ,GitHubRepo:"https://github.com/troylochner/"
@@ -77,7 +77,7 @@ export const ProjectProvider = (props)=>{
             id: 8,
             name: "VFX Work",
             status: "Open",
-            description_short: "Visual effects data coordinator work.",
+            description_short: "The work I did in the visual effects industry.",
             imageURL: "https://via.placeholder.com/600x600.png",
             dateComplete:""
             ,GitHubRepo:"https://github.com/troylochner/tlt_deli"

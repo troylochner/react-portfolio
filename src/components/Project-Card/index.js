@@ -16,7 +16,7 @@ const ProjectCard = ({id,name,description_short,GitHubRepo,imageURL}) =>{
       </div>
 
       <div className="card-action">
-      <a target="_blank" href={GitHubRepo}>GitHub </a>
+      <a target="_blank" href={GitHubRepo}>View </a>
       </div>
 
   </div>
