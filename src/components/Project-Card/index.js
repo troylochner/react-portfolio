@@ -16,10 +16,6 @@ const ProjectCard = ({id,name,description_short,GitHubRepo,imageURL}) =>{
       </div>
 
       <div className="card-action">
-      <a target="" href={`/project/${id}` }>Detail Page</a>
-      </div>
-      
-      <div className="card-action">
       <a target="_blank" href={GitHubRepo}>GitHub </a>
       </div>
 

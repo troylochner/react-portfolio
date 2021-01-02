@@ -11,75 +11,73 @@ export const ProjectProvider = (props)=>{
             id: 1,
             name: "Covid-19 Dashboard",
             status: "Closed",
-            description: "This was my first project",
             description_short: "Covid-19 high level stats dashboard."
-            ,description_long:""
-            ,imageURL: "/img/1.png"
+            ,imageURL: "https://via.placeholder.com/150x150.png"
             ,era: "October 2020"
              ,GitHubRepo:"https://github.com/troylochner/covid19-info"
              ,deployURL:"https://troylochner.github.io/covid19-info/"
         }, {
             id: 2,
-            name: "Second Project",
+            name: "TLT Deli",
             status: "Closed",
-            description: "This is the second thing we did.",
+            description_short: "Simple deli-ordering system",
             imageURL: "https://via.placeholder.com/150x150.png",
             dateComplete:""
             ,GitHubRepo:"https://github.com/troylochner/tlt_deli"
             ,deployURL:""
         }, {
             id: 3,
-            name: "Third Project",
+            name: "BurgerTown",
             status: "Open",
-            description: "I skipped this one, way too hard.",
+            description_short: "Student project to track burgers consumed.",
             imageURL: "https://via.placeholder.com/100x100.png",
             dateComplete:""
-            ,GitHubRepo:"https://github.com/troylochner/tlt_deli"
+            ,GitHubRepo:"https://github.com/troylochner/burgertown"
             ,deployURL:""
         }, {
             id: 4,
-            name: "Fourth Project",
+            name: "Employee CLI",
             status: "Open",
-            description: "So damn easy.",
+            description_short: "Command line tool to manange an employee DB.",
             imageURL: "https://via.placeholder.com/150x150.png",
             dateComplete:""
-            ,GitHubRepo:"https://github.com/troylochner/tlt_deli"
+            ,GitHubRepo:"https://github.com/troylochner/employee-tracker"
             ,deployURL:""
         },{
             id: 5,
-            name: "Five",
+            name: "Note-Taker",
             status: "Open",
-            description: "So damn easy.",
+            description_short: "Simple note-taking tool.",
             imageURL: "https://via.placeholder.com/150x150.png",
             dateComplete:""
-            ,GitHubRepo:"https://github.com/troylochner/tlt_deli"
+            ,GitHubRepo:"https://github.com/troylochner/note-taker"
             ,deployURL:""
         },
         {
             id: 6,
-            name: "Six",
+            name: "Weather Dashboard",
             status: "Open",
-            description: "So damn easy.",
+            description_short: "Weather dashboard - powered by OpenWeatherAPI.",
             imageURL: "https://via.placeholder.com/150x150.png",
             dateComplete:""
-            ,GitHubRepo:"https://github.com/troylochner/tlt_deli"
+            ,GitHubRepo:"https://github.com/troylochner/Weather-Dashboard"
             ,deployURL:""
         },
         {
             id: 7,
-            name: "Seven",
+            name: "WWE Work",
             status: "Open",
-            description: "So damn easy.",
+            description_short: "Content systems engineering work.",
             imageURL: "https://via.placeholder.com/150x150.png",
             dateComplete:""
-            ,GitHubRepo:"https://github.com/troylochner/tlt_deli"
+            ,GitHubRepo:"https://github.com/troylochner/"
             ,deployURL:""
         },
         {
             id: 8,
-            name: "Eight",
+            name: "VFX Work",
             status: "Open",
-            description: "So damn easy.",
+            description_short: "Visual effects data coordinator work.",
             imageURL: "https://via.placeholder.com/150x150.png",
             dateComplete:""
             ,GitHubRepo:"https://github.com/troylochner/tlt_deli"
