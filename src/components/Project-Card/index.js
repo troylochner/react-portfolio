@@ -7,7 +7,7 @@ const ProjectCard = ({id,name,description_short,GitHubRepo,imageURL}) =>{
     <div className="card z-depth-3">
 
       <div className="card-image">
-        <img alt="holding pattern" src={imageURL} ></img>
+        <img alt="holding pattern" src={imageURL}></img>
         <span className="card-title">{name}</span>
       </div>
 

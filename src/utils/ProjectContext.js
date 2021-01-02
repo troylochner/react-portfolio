@@ -12,7 +12,7 @@ export const ProjectProvider = (props)=>{
             name: "Covid-19 Dashboard",
             status: "Closed",
             description_short: "Covid-19 high level stats dashboard."
-            ,imageURL: "https://via.placeholder.com/150x150.png"
+            ,imageURL: "../img/covid.png"
             ,era: "October 2020"
              ,GitHubRepo:"https://github.com/troylochner/covid19-info"
              ,deployURL:"https://troylochner.github.io/covid19-info/"
