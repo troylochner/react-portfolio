@@ -7,7 +7,7 @@ const [projects,setProjects]= useContext(ProjectContext)
 return(
     <div>
         <ul>
-            <li><Link to="/">Projects</Link></li>
+            <li><Link to="/">Portfolio</Link></li>
             <li><Link to="/bio">Bio</Link></li>
             <li><Link to="contact">Contact</Link></li>
             </ul>

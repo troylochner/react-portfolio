@@ -6,7 +6,7 @@ import {ProjectProvider} from "./utils/ProjectContext";
 import Bio from "./pages/Bio";
 import Contact from "./pages/Contact";
 import Detail from "./pages/Detail";
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, BrowserRouter} from 'react-router-dom';
 
 import './App.css';
 
@@ -14,16 +14,15 @@ import './App.css';
 function App() {
   return (
     <div className="Portfolio">
-       <Router>
-        
-      <ProjectProvider>
-      <Header/>
-      <Route exact path="/" component={ProjectList}></Route>
-      <Route path="/bio" component={Bio}></Route>
-      <Route path="/contact" component={Contact}></Route>
-      <Footer/>
-
-      </ProjectProvider>
+      <Router>
+        <ProjectProvider>
+          <Header/>
+          <Route exact path="/" component={ProjectList}></Route>
+          <Route exact path="/bio" component={Bio}></Route>
+          <Route exact path="/contact" component={Contact}></Route>
+          <Route exact path="/project/:id" component={Detail}></Route>
+          <Footer/>
+        </ProjectProvider>
       </Router>
     </div>
   );

@@ -1,22 +1,26 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-const ProjectCard = ({id,name,description,GitHubRepo}) =>{
+const ProjectCard = ({id,name,description_short,GitHubRepo,imageURL}) =>{
 
     return(
     <div className="card z-depth-3">
 
       <div className="card-image">
-        <img alt="holding pattern" src="https://via.placeholder.com/100x100"></img>
+        <img alt="holding pattern" src={imageURL} ></img>
         <span className="card-title">{name}</span>
       </div>
 
       <div className="card-content">
-        <p>{description}</p>
+        <p>{description_short}</p>
       </div>
 
       <div className="card-action">
-        <a target="_blank" href={`/project/${id}`}>View on GitHub</a>
+      <a target="" href={`/project/${id}` }>Detail Page</a>
+      </div>
+      
+      <div className="card-action">
+      <a target="_blank" href={GitHubRepo}>GitHub </a>
       </div>
 
   </div>
