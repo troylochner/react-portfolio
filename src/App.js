@@ -6,9 +6,18 @@ import {ProjectProvider} from "./utils/ProjectContext";
 import Bio from "./pages/Bio";
 import Contact from "./pages/Contact";
 import Detail from "./pages/Detail";
-import {BrowserRouter as Router, Switch, Route, BrowserRouter} from 'react-router-dom';
+
+//CHOOSING HASHROUTER FOR GITHUB DEPLOYMENT
+//import {BrowserRouter as Router, Switch, Route, BrowserRouter} from 'react-router-dom';
+import { HashRouter as Router, Switch, Route, BrowserRouter } from 'react-router-dom'
+
+
 
 import './App.css';
+
+// uysing font awesome
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 function App() {

@@ -2,7 +2,7 @@ import React from "react";
 
 function Bio() {
   return (
-    <div className="Bio">
+    <div className="PersonalDetail">
         <h1>Troy Lochner Bio</h1>
         <p>This is just a bio page about myself. I'm not that exciting at the moment....so here is some ipsum for you.
         </p>

@@ -1,10 +1,9 @@
 import React from "react";
-import ProjectDetail from "../Detail";
-import ProjectLink from "../Project-Links";
-
 import {Link} from "react-router-dom";
+import ProjectLinks from "../Project-Links";
 
-const ProjectCard = ({id,name,description_short,GitHubRepo,imageURL}) =>{
+
+const ProjectDetail = ({id,name,description_short,GitHubRepo,imageURL}) =>{
 
     return(
     <div className="card z-depth-3">
@@ -19,8 +18,8 @@ const ProjectCard = ({id,name,description_short,GitHubRepo,imageURL}) =>{
       </div>
 
       <div className="card-action">
-        <ProjectLink GitHubRepo={GitHubRepo}></ProjectLink>
-  
+      <ProjectLinks GithubRepo={GitHubRepo} />
+      <a target="_blank" href={GitHubRepo}>View </a>
       </div>
 
   </div>
@@ -29,4 +28,4 @@ const ProjectCard = ({id,name,description_short,GitHubRepo,imageURL}) =>{
 
 };
 
-export default ProjectCard;
+export default ProjectDetail;

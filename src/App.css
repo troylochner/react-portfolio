@@ -10,15 +10,18 @@ main {
   flex: 1 0 auto;
 }
 
-.Bio{
+.PersonalDetail{
+  margin: 5vh;
   padding: 5vh;
-  min-height: 75vh
+  min-height: 75vh;
+  background-color: rgba(128, 128, 128, 0.253);
+  border-radius: 1vh;
 }
 
-.Contact{
-  padding: 5vh;
-  min-height: 75vh
+.PersonalDetail h1{
+  color:#c0c0c0;
 }
+
 
 .nav-wrapper{
   background-color:#34495E;
@@ -29,9 +32,15 @@ main {
   height: 150px;
 }
 
-.card{
-  
+
+.card { 
+  transition: all .5s ease-in-out; 
 }
+
+.card:hover { 
+  transform: scale(1.05); 
+}
+
 
 .card-image{
   max-height: 400px;
