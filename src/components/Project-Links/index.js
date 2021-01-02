@@ -7,9 +7,7 @@ const ProjectLink = ({GitHubRepo}) =>{
     <div>
         <div className="Container">
             <div className="row">
-      <a href={GitHubRepo}>GitHub Repo</a>
-      <a href={GitHubRepo}>Deploy</a>
-
+      <a target="_blank" href={GitHubRepo}>GitHub Repo</a>
   </div>
   </div>
   </div>

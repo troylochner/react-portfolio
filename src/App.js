@@ -15,9 +15,9 @@ import { HashRouter as Router, Switch, Route, BrowserRouter } from 'react-router
 
 import './App.css';
 
-// uysing font awesome
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// trying to use font awesome icons --- but holding off for the moment. 
+//import { faHome } from "@fortawesome/free-solid-svg-icons";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 function App() {
@@ -27,6 +27,7 @@ function App() {
         <ProjectProvider>
           <Header/>
           <Route exact path="/" component={ProjectList}></Route>
+          <Route exact path="/react-portfolio" component={ProjectList}></Route>
           <Route exact path="/bio" component={Bio}></Route>
           <Route exact path="/contact" component={Contact}></Route>
           <Route exact path="/project/:id" component={Detail}></Route>

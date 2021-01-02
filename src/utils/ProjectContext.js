@@ -62,13 +62,13 @@ export const ProjectProvider = (props)=>{
             dateComplete:""
             ,GitHubRepo:"https://github.com/troylochner/Weather-Dashboard"
             ,deployURL:""
-        },
+        }/*,
         {
             id: 7,
             name: "WWE Work",
             status: "Open",
             description_short: "The work I do for WWE.",
-            imageURL: "https://via.placeholder.com/600x600.png",
+            imageURL: "https://via.placeholder.com/600x600",
             dateComplete:""
             ,GitHubRepo:"https://github.com/troylochner/"
             ,deployURL:""
@@ -78,11 +78,11 @@ export const ProjectProvider = (props)=>{
             name: "VFX Work",
             status: "Open",
             description_short: "The work I did in the visual effects industry.",
-            imageURL: "https://via.placeholder.com/600x600.png",
+            imageURL: "https://via.placeholder.com/600x600",
             dateComplete:""
             ,GitHubRepo:"https://github.com/troylochner/tlt_deli"
             ,deployURL:""
-        }
+        }*/
 ]); 
 
     return(
