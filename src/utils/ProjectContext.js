@@ -24,7 +24,7 @@ export const ProjectProvider = (props)=>{
             imageURL: "https://raw.githubusercontent.com/troylochner/react-portfolio/main/src/img/tlt-deli.png",
             dateComplete:""
             ,GitHubRepo:"https://github.com/troylochner/tlt_deli"
-            ,deployURL:""
+            ,deployURL:"https://powerful-wave-95370.herokuapp.com/"
         }, {
             id: 3,
             name: "BurgerTown",
@@ -33,7 +33,7 @@ export const ProjectProvider = (props)=>{
             imageURL: "https://raw.githubusercontent.com/troylochner/react-portfolio/main/src/img/burgertown-rev.png",
             dateComplete:""
             ,GitHubRepo:"https://github.com/troylochner/burgertown"
-            ,deployURL:""
+            ,deployURL:"https://pure-temple-04329.herokuapp.com/"
         }, {
             id: 4,
             name: "Employee CLI",
@@ -42,7 +42,7 @@ export const ProjectProvider = (props)=>{
             imageURL: "https://raw.githubusercontent.com/troylochner/react-portfolio/main/src/img/employee-tracker.png",
             dateComplete:""
             ,GitHubRepo:"https://github.com/troylochner/employee-tracker"
-            ,deployURL:""
+            ,deployURL:"https://github.com/troylochner/employee-tracker"
         },{
             id: 5,
             name: "Note-Taker",
@@ -51,7 +51,7 @@ export const ProjectProvider = (props)=>{
             imageURL: "https://raw.githubusercontent.com/troylochner/react-portfolio/main/src/img/note-taker.png",
             dateComplete:""
             ,GitHubRepo:"https://github.com/troylochner/note-taker"
-            ,deployURL:""
+            ,deployURL:"https://shrouded-gorge-29798.herokuapp.com/"
         },
         {
             id: 6,
@@ -61,7 +61,7 @@ export const ProjectProvider = (props)=>{
             imageURL: "https://raw.githubusercontent.com/troylochner/react-portfolio/main/src/img/weather-dashboard.png",
             dateComplete:""
             ,GitHubRepo:"https://github.com/troylochner/Weather-Dashboard"
-            ,deployURL:""
+            ,deployURL:"https://troylochner.github.io/Weather-Dashboard/"
         }/*,
         {
             id: 7,

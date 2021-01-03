@@ -4,7 +4,7 @@ import ProjectLink from "../Project-Links";
 
 import {Link} from "react-router-dom";
 
-const ProjectCard = ({id,name,description_short,GitHubRepo,imageURL}) =>{
+const ProjectCard = ({id,name,description_short,GitHubRepo,imageURL,deployURL }) =>{
 
     return(
     <div className="card z-depth-3">
@@ -19,7 +19,7 @@ const ProjectCard = ({id,name,description_short,GitHubRepo,imageURL}) =>{
       </div>
 
       <div className="card-action">
-        <ProjectLink GitHubRepo={GitHubRepo}></ProjectLink>
+        <ProjectLink deployURL={deployURL} GitHubRepo={GitHubRepo}></ProjectLink>
   
       </div>
 
