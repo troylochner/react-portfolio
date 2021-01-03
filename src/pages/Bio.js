@@ -32,7 +32,24 @@ function Bio() {
 
          </p>
 
-         <a className="downloadLink" href="../img/Resume-Troy-Lochner_jan21_dft.pdf" download>Download Resume</a>
+         <h5>Get in Touch</h5>
+         <p>You can get into contact with my via GitHub or LinkedIn. Or for the truly old-school and adventurous email : <a href="mailto:troy.lochner@gmail.com">troy.lochner@gmail.com</a>
+
+         <ul>
+            <li><a target="_blank" className="grey-text text-lighten-3" href="https://github.com/troylochner">GitHub</a></li>
+            <li><a target="_blank" className="grey-text text-lighten-3" href="https://linkedin.com/in/troylochner">LinkedIn</a></li>
+          </ul>
+
+          <a className="downloadLink" href="../img/Resume-Troy-Lochner_jan21_dft.pdf" download>Download Resume
+         </a>
+
+         </p>
+
+       
+
+       
+
+
       </div>
 
     </div>
