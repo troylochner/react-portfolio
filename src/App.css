@@ -10,17 +10,31 @@ main {
   flex: 1 0 auto;
 }
 
+.downloadLink{
+  margin-left: 1vh;
+}
+
 .PersonalDetail{
   margin: 5vh;
   padding: 5vh;
   min-height: 75vh;
   background-color: rgba(128, 128, 128, 0.253);
   border-radius: 1vh;
+  color: #c0c0c0;
 }
 
 .PersonalDetail h1{
   color:#c0c0c0;
 }
+
+.PersonalDetail p{
+  text-align: left;
+  background-color:rgba(44, 44, 44, 0.2);
+  padding: 2vh;
+  border-radius: 1vh;
+}
+
+
 
 
 .nav-wrapper{
